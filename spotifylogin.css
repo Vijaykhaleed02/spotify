@@ -1,69 +1,108 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-ul{
-    list-style: none;
+.container{
+    background-color: black;
+    width: 600px;
+    height: 100vh;
+    text-align: center;
+    margin: 30px;
+    box-shadow: 4px 12px 19px 6px rgba(237, 238, 231, 0.75);
+    border-color: white;
 }
-nav{
-    background-color:#343A40;
+body{
     display: flex;
-    padding: 10px;
+    justify-content: center;
+    background-color: black;
+    min-height: 100vh;
 }
-.nav2{
-    display: flex;
-    gap: 90px;
-    margin-left: 40px;
-    cursor:pointer;
-    margin-top: 5px;
-}
-.nav2 li{
+header h1{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: 500;
-}
-.nav3{
-    background-color: red;
-    border-radius: 30px;
-    padding: 10px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: red;
-    cursor: pointer;
     font-size: larger;
-    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.nav1{
-    margin-left: 40px;
+header{
+    padding: 20px;
 }
 .div1{
-    background: linear-gradient(135deg,#34373E 100%);
-    background-size: cover;
-    text-align: center;
-    align-items: center;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
-.div1 h1{
-    font-size: 7vmax;
-    padding-bottom: 40px;
+.img1{
+    padding: 10px;
+    border-radius: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    font-size:;
+    font-weight: 400;
+    background-color: black;
     color: white;
-    margin-top: 30px;
-    font-weight: 900;
+    width: 200px;
+    margin-bottom: 5px;
+    border-color: white;
+    cursor: pointer;
 }
-.div2{
-    color: red;
+.img1 img{
+    margin-right: 20px;
 }
-.div1 p{
-    padding: 20px;
-    max-width: 1000px;
-    font-size: xx-large;
+.img2{
+    padding: 10px;
+    border-radius: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    font-size:;
+    font-weight: 400;
+    background-color: black;
     color: white;
-    font-display: ;
+    width: 200px;
+    margin-bottom: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+.img2 img {
+    margin-right:10px;
+}
+.img3{
+    padding: 10px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    font-size:;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-color: white;
+    cursor: pointer;
+}
+.img3 img{
+    margin-right:10px;
+}
+.button4{
+    padding: 10px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    font-size:500;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin-bottom: 40px;
+    border-color: white;
+    cursor: pointer;
+}
+.line{
+    background-color: gray;
+    color: grey;
+}
+.lastdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
